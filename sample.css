@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 7%;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px;
+}
+.nav-links li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #fff;
+}
+.register-btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.container{
+    padding: 7% 0;
+}
+.container h1{
+    font-size: 4vw;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 22%;
+    color: #fff;
+}
+.search-bar{
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 8px 10px 9px 30px;
+    border-radius: 20px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    text-transform: capitalize;
+    background: transparent;
+}
+.search-bar form button{
+    background: #ff2123;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar form button img{
+    width: 15px;
+    margin: 7px 0;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sub-title{
+    margin: 30px 0 20px;
+    font-size: 3vw;
+    color: #333;
+    font-weight: 600;
+}
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.exclusives div{
+    position: relative;
+}
+.exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 50px;
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(images/banner-2.png);
+    padding: 10%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cta h3{
+    font-size: 4vw;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+.cta p{
+    font-size: 2.2vw;
+    color: #fff;
+    margin-top: 10px 15px;
+    text-transform: capitalize;
+}
+.cta-btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: tomato;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 50px;
+}
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.stories div{
+    position: relative;
+}
+.stories div p{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.btn{
+    background-color: rgb(201, 58, 33);
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin: 60px auto;
+    padding: 15px 25px;
+    border-radius: 15px;
+    display: block;
+    cursor: pointer;
+    width: 60%;
+}
+.msg{
+    margin: 60px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.msg h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer{
+    margin: 80px auto;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 28px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.footer hr{
+    border: 0;
+    width: 100%;
+    height: 3px;
+    background: #333;
+    margin: 15px 0;
+}
+.footer p{
+    font-size: 20px;
+}
